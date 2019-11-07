@@ -1,9 +1,0 @@
-.section-header {
-  padding: 2rem; }
-  .section-header__background {
-    background: url(../img/next-events-header-bg.png);
-    height: 100%;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 2.5rem; }
