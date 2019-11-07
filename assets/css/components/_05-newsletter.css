@@ -1,0 +1,8 @@
+.newsletter {
+  background: url(../img/newsletter-bg.jpg);
+  height: 80vh;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }

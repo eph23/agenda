@@ -1,0 +1,65 @@
+.carousel__hero {
+
+
+  &-card {
+    height: 148vh;
+    width: 100%;
+    position: relative;
+
+    @include media-breakpoint (lg) {
+      height: 120vh;
+      width: 100%;
+    }
+
+    @include media-breakpoint (md) {
+      height: 100vh;
+    }
+
+    @include media-breakpoint (sm) {
+      height: 85vh;
+    }
+
+    @include media-breakpoint (xs) {
+      height: 80vh;
+      width: 100%;
+    }
+
+    &--1 {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(/assets/img/header-bg.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &--2 {
+       background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+       url(/assets/img/header-bg.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+
+    &--3 {
+       background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+       url(/assets/img/header-bg.jpg);
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+     url(/assets/img/header-bg.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+  }
+
+  &-card-text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+  }
+}

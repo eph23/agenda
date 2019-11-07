@@ -1,0 +1,24 @@
+.footer {
+  background: $color-background;
+  padding: 5rem 0;
+
+  &__logo {
+    padding: 2rem 0;
+  }
+
+  &__nav {
+    padding: 2rem 0;
+    position: relative;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+  &__social {
+    padding: 2rem 0;
+    position: relative;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+}

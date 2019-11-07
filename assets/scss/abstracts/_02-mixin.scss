@@ -1,0 +1,67 @@
+//! MEDIA QUERY MANAGER
+
+/*
+Extra small devices (portrait phones, less than 576px) ==> xs
+Small devices (landscape phones, less than 768px) ==> sm
+Medium devices (tablets, less than 992px) ==> md
+Large devices (desktops, less than 1200px) ==> lg
+Extra large devices (large desktops, more then 1200px) ==> xl
+*/
+
+@mixin media-breakpoint ($breakpoint) {
+
+    //! Extra small devices (portrait phones, less than 576px)
+
+    // 1em = 16px; 575px/16px = 35.99875em
+    @if $breakpoint==xs {
+
+        // Extra small devices (portrait phones, less than 576px)
+        @media (max-width: 35.99875em) {
+            @content
+        }
+
+        ;
+    }
+
+    //! Small devices (landscape phones, less than 768px)
+    // 1em = 16px; 767.98px/16px = 47.99875em
+    @if $breakpoint==sm {
+        @media (max-width: 47.99875em) {
+            @content
+        }
+
+        ;
+    }
+
+
+    //! Medium devices (tablets, less than 992px)
+    // 1em = 16px; 991.98px/16px = 61.99875em
+    @if $breakpoint==md {
+        @media (max-width: 61.99875em) {
+            @content
+        }
+
+        ;
+    }
+
+    //! Large devices (desktops, less than 1200px)
+    // 1em = 16px; 1199.98px/16 = 74.99875em
+    @if $breakpoint==lg {
+        @media (max-width: 74.99875em) {
+            @content
+        }
+
+        ;
+    }
+
+    //! Extra large devices (large desktops, 1200px and up)
+    // 1em = 16px; 1200px/16px = 75em
+    @if $breakpoint==xl {
+        @media (min-width: 75em) {
+            @content
+        }
+
+        ;
+    }
+
+}

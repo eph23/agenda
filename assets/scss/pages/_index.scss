@@ -1,0 +1,309 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.intro {
+  padding: 10rem 0;
+  position: relative;
+
+  &__img-box {
+    padding: 1rem;
+  }
+
+  &__text-box {
+    padding: 0 2rem;
+  }
+}
+
+
+.featured-events {
+  padding: 10rem 0;
+  margin: 0;
+  background: url(../img/featured-events-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 235vh;
+
+
+
+  &__img-one {
+    position: relative;
+    padding-bottom: 3rem;
+
+    @include media-breakpoint(xs) {
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-two {
+    position: relative;
+    top: 24.5rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 16.8rem;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-three {
+    position: relative;
+    top: 9.5rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      padding-bottom: 3rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 6.5rem;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+  }
+
+  &__img-four {
+    position: relative;
+    top: 22.5rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 20.5rem;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-five {
+    position: relative;
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-six {
+    position: relative;
+    left: 47.5rem;
+    z-index: 1;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 0;
+      left: 33.5rem;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-seven {
+    position: relative;
+    right: 19rem;
+    top: 14rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 9.5rem;
+      right: 13.2rem;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      right: 0;
+      padding-bottom: 2rem;
+    }
+
+
+
+  }
+
+  &__img-eight {
+    position: relative;
+    padding-bottom: 3rem;
+    top: 14rem;
+    right: 19rem;
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 9.5rem;
+      right: 13rem;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      right: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-nine {
+    position: relative;
+    bottom: 42rem;
+    left: 85.5rem;
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(lg) {
+      bottom: 24rem;
+      left: 60rem;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+  &__img-ten {
+    position: relative;
+    bottom: 11.5rem;
+    left: 57rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+    }
+
+    @include media-breakpoint(lg) {
+      bottom: 3rem;
+      left: 40rem;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+  }
+
+  &__img-eleven {
+    position: relative;
+    top: 14rem;
+
+
+    @include media-breakpoint(xs) {
+      top: 0;
+      left: 0;
+    }
+
+    @include media-breakpoint(lg) {
+      top: 9.5rem;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+    @include media-breakpoint(md) {
+      top: 0;
+      left: 0;
+      padding-bottom: 2rem;
+    }
+
+
+  }
+
+}
+
+
+.next-events {
+  padding: 5rem 0;
+
+  &__container {
+    padding: 5rem 0;
+  }
+}
